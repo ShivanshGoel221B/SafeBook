@@ -379,8 +379,8 @@ body {
 .icons
 {
   display: flex;
-  color:#355958;
-  justify-content: space-evenly;
+  /* color:#355958; */
+  
 }
 .last-modified {
   font-family: "Combo", cursive;
