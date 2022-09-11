@@ -365,6 +365,8 @@ body {
 {
   display: flex;
   justify-content: center;
+  
+  
 }
 
 .delete {
@@ -376,10 +378,15 @@ body {
   transform: scale(1.1);
   color: #355958;
 }
+.fa-trash
+{
+  margin-left: 32rem;
+}
+
 .icons
 {
-  display: flex;
-  /* color:#355958; */
+  
+  color:#355958;
   
 }
 .last-modified {
@@ -489,8 +496,17 @@ body {
   cursor: pointer;
   border-radius: 1.2rem;
   margin-top: 1.3rem;
+  box-shadow:rgba(0, 0, 0, 0.19) 0px 10px 20px,rgba(0,0, 0, 0.23) 0px 6px 6px;
+  transition:all 160ms ease-in;
  
-  box-shadow: 0px 4px #454545;
+}
+.upload-button:hover{
+  background:#355958;
+}
+.upload-button:active
+{
+  background:#355958;
+  transform:scale(.95);
 }
 
 .uploaded-files {
